@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>lab_4</name>
+  <version>0.0.0</version>
+  <description>
+    The lab_4 package. Contains software to learn about robust pose estimation.
+  </description>
+
+  <maintainer email="aaronray@mit.edu">Aaron Ray</maintainer>
+  <license>MIT</license>
+
+  <!-- Build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Package dependencies -->
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>image_transport</depend>
+  <depend>cv_bridge</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_eigen</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>glog</depend>
+  <depend>Eigen3</depend>
+  <depend>OpenCV</depend>
+  <depend>lab_3</depend>
+  <depend>opengv</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

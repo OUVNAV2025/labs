@@ -1,0 +1,10 @@
+launch:
+
+    - include:
+        file: "$(find-pkg-share ultralytics_ros)/launch/tracker.launch.xml"
+
+    - node:
+        pkg: lab_6
+        exec: deliverable_3
+        name: deliverable_3
+        output: screen

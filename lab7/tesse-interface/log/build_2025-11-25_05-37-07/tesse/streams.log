@@ -1,0 +1,36 @@
+[1.235s] Invoking command in '/home/ghabibi/vnav_ws2/src/tesse-interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/tesse build --build-base /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build install --record /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/install.log --single-version-externally-managed
+[1.641s] running egg_info
+[1.642s] creating build/tesse/tesse.egg-info
+[1.671s] writing build/tesse/tesse.egg-info/PKG-INFO
+[1.671s] writing dependency_links to build/tesse/tesse.egg-info/dependency_links.txt
+[1.671s] writing requirements to build/tesse/tesse.egg-info/requires.txt
+[1.671s] writing top-level names to build/tesse/tesse.egg-info/top_level.txt
+[1.672s] writing manifest file 'build/tesse/tesse.egg-info/SOURCES.txt'
+[1.739s] reading manifest file 'build/tesse/tesse.egg-info/SOURCES.txt'
+[1.740s] adding license file 'LICENSE'
+[1.740s] writing manifest file 'build/tesse/tesse.egg-info/SOURCES.txt'
+[1.741s] running build
+[1.741s] running build_py
+[1.741s] creating /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build
+[1.742s] creating /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build/lib
+[1.742s] creating /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build/lib/tesse
+[1.742s] copying src/tesse/__init__.py -> /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build/lib/tesse
+[1.742s] copying src/tesse/env.py -> /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build/lib/tesse
+[1.742s] copying src/tesse/msgs.py -> /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build/lib/tesse
+[1.743s] copying src/tesse/utils.py -> /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build/lib/tesse
+[1.743s] running install
+[1.754s] running install_lib
+[1.786s] creating /home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages/tesse
+[1.787s] copying /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build/lib/tesse/__init__.py -> /home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages/tesse
+[1.787s] copying /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build/lib/tesse/env.py -> /home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages/tesse
+[1.787s] copying /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build/lib/tesse/msgs.py -> /home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages/tesse
+[1.787s] copying /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build/lib/tesse/utils.py -> /home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages/tesse
+[1.788s] byte-compiling /home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages/tesse/__init__.py to __init__.cpython-312.pyc
+[1.788s] byte-compiling /home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages/tesse/env.py to env.cpython-312.pyc
+[1.792s] byte-compiling /home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages/tesse/msgs.py to msgs.cpython-312.pyc
+[1.797s] byte-compiling /home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages/tesse/utils.py to utils.cpython-312.pyc
+[1.798s] running install_egg_info
+[1.830s] Copying build/tesse/tesse.egg-info to /home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages/tesse-0.1.2-py3.12.egg-info
+[1.831s] running install_scripts
+[2.013s] writing list of installed files to '/home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/install.log'
+[2.048s] Invoked command in '/home/ghabibi/vnav_ws2/src/tesse-interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/tesse build --build-base /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build install --record /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/install.log --single-version-externally-managed

@@ -1,0 +1,3 @@
+source;share/tesse/hook/pythonpath.ps1
+source;share/tesse/hook/pythonpath.dsv
+source;share/tesse/hook/pythonpath.sh

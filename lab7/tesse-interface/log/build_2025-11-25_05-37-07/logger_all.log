@@ -1,0 +1,102 @@
+[0.149s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.149s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74cda2c87c50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74cda2dd4140>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74cda2dd4140>>, mixin_verb=('build',))
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.201s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ghabibi/vnav_ws2/src/tesse-interface'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Python package in '.' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.548s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'python' and name 'tesse'
+[0.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.572s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ghabibi/vnav_ws/install/vision_opencv' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.572s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ghabibi/vnav_ws/install/two_drones_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.572s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ghabibi/vnav_ws/install/lab_4' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.573s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ghabibi/vnav_ws/install/opencv_tests' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.573s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ghabibi/vnav_ws/install/lab_7' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.573s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ghabibi/vnav_ws/install/lab_5' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.573s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ghabibi/vnav_ws/install/lab_3' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.573s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ghabibi/vnav_ws/install/vision_opencv' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.573s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ghabibi/vnav_ws/install/two_drones_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.573s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ghabibi/vnav_ws/install/lab_4' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.573s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ghabibi/vnav_ws/install/lab_7' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.573s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ghabibi/vnav_ws/install/lab_5' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.573s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ghabibi/vnav_ws/install/lab_3' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.574s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ghabibi/vnav_ws/install
+[0.576s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/jazzy
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'tesse' build argument 'cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'tesse' build argument 'cmake_target' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'tesse' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'tesse' build argument 'cmake_clean_cache' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'tesse' build argument 'cmake_clean_first' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'tesse' build argument 'cmake_force_configure' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'tesse' build argument 'ament_cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'tesse' build argument 'catkin_cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'tesse' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.637s] DEBUG:colcon.colcon_core.verb:Building package 'tesse' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse', 'merge_install': False, 'path': '/home/ghabibi/vnav_ws2/src/tesse-interface', 'symlink_install': False, 'test_result_base': None}
+[0.637s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.639s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.639s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ghabibi/vnav_ws2/src/tesse-interface'
+[0.641s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ghabibi/vnav_ws2/src/tesse-interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/tesse build --build-base /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build install --record /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/install.log --single-version-externally-managed
+[2.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ghabibi/vnav_ws2/src/tesse-interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/tesse build --build-base /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/build install --record /home/ghabibi/vnav_ws2/src/tesse-interface/build/tesse/install.log --single-version-externally-managed
+[2.690s] Level 1:colcon.colcon_core.environment:checking '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse' for CMake module files
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse' for CMake config files
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/bin'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/pkgconfig/tesse.pc'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/lib/python3.12/site-packages'
+[2.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('tesse', 'pythonpath')
+[2.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/share/tesse/hook/pythonpath.ps1'
+[2.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/share/tesse/hook/pythonpath.dsv'
+[2.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/share/tesse/hook/pythonpath.sh'
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/bin'
+[2.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tesse)
+[2.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/share/tesse/package.ps1'
+[2.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/share/tesse/package.dsv'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/share/tesse/package.sh'
+[2.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/share/tesse/package.bash'
+[2.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/share/tesse/package.zsh'
+[2.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ghabibi/vnav_ws2/src/tesse-interface/install/tesse/share/colcon-core/packages/tesse)
+[2.699s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.699s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.700s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.700s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.707s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.707s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.707s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.732s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.733s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ghabibi/vnav_ws2/src/tesse-interface/install/local_setup.ps1'
+[2.734s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ghabibi/vnav_ws2/src/tesse-interface/install/_local_setup_util_ps1.py'
+[2.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ghabibi/vnav_ws2/src/tesse-interface/install/setup.ps1'
+[2.737s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ghabibi/vnav_ws2/src/tesse-interface/install/local_setup.sh'
+[2.738s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ghabibi/vnav_ws2/src/tesse-interface/install/_local_setup_util_sh.py'
+[2.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ghabibi/vnav_ws2/src/tesse-interface/install/setup.sh'
+[2.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ghabibi/vnav_ws2/src/tesse-interface/install/local_setup.bash'
+[2.740s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ghabibi/vnav_ws2/src/tesse-interface/install/setup.bash'
+[2.741s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ghabibi/vnav_ws2/src/tesse-interface/install/local_setup.zsh'
+[2.742s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ghabibi/vnav_ws2/src/tesse-interface/install/setup.zsh'

@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.8)
+project(controller_pkg)
+
+# ----------------------------------------------------------
+# Don't edit
+# ----------------------------------------------------------
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+# ----------------------------------------------------------
+
+find_package(ament_cmake REQUIRED)
+#COMPONENTS
+#  roscpp 
+#  rospy 
+#  std_msgs 
+#  geometry_msgs 
+#  mav_msgs
+#  tf
+#  tf2
+#)

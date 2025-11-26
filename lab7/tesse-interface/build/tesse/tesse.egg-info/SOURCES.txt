@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+build/tesse/tesse.egg-info/PKG-INFO
+build/tesse/tesse.egg-info/SOURCES.txt
+build/tesse/tesse.egg-info/dependency_links.txt
+build/tesse/tesse.egg-info/requires.txt
+build/tesse/tesse.egg-info/top_level.txt
+src/tesse/__init__.py
+src/tesse/env.py
+src/tesse/msgs.py
+src/tesse/utils.py
+tests/test_import.py

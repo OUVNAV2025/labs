@@ -11,7 +11,7 @@
 #define PI M_PI
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//  PART 0 |  16.485 - Fall 2024  - Lab 3 coding assignment
+//  PART 0 Fall 2025  - Lab 7 coding assignment
 // ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 //
 //  In this code, we ask you to implement a geometric controller for a
@@ -25,7 +25,7 @@
 //  paper, however, we have slightly different conventions for the aerodynamic
 //  coefficients of the propellers (refer to the lecture notes for these).
 //  Additionally, watch out for the different conventions on reference frames
-//  (see Lab 3 Handout for more details).
+//  (see Lab 7 Handout for more details).
 //
 //  The include below is strongly suggested [but not mandatory if you have
 //  better alternatives in mind :)]. Eigen is a C++ library for linear algebra
@@ -221,7 +221,7 @@ public:
     //    - assemble the Rd matrix, eigen offers: "MATRIX << col1, col2, col3"
     //
     //  CAVEATS:
-    //    - Compare the reference frames in the Lab 3 handout with Fig. 1 in the
+    //    - Compare the reference frames in the Lab 7 handout with Fig. 1 in the
     //      paper. The z-axes are flipped, which affects the signs of:
     //         i) the gravity term and
     //        ii) the overall sign (in front of the fraction) in equation (12)
@@ -248,7 +248,7 @@ public:
     //     - [1] eq. (15), (16)
 
     // CAVEATS:
-    //    - Compare the reference frames in the Lab 3 handout with Fig. 1 in the
+    //    - Compare the reference frames in the Lab 7 handout with Fig. 1 in the
     //      paper. The z-axes are flipped, which affects the signs of:
     //         i) the gravity term
     //        ii) the overall sign (in front of the bracket) in equation (15)
@@ -269,7 +269,7 @@ public:
     //       Namely: C_{\tau f} = c_d / c_f
     //               (LHS paper [1], RHS our conventions [lecture notes])
     //
-    //     - Compare the reference frames in the Lab 3 handout with Fig. 1 in
+    //     - Compare the reference frames in the Lab 7 handout with Fig. 1 in
     //     the
     //       paper. In the paper [1], the x-body axis [b1] is aligned with a
     //       quadrotor arm, whereas for us, it is 45° from it (i.e., "halfway"
